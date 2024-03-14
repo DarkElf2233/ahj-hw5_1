@@ -1,0 +1,79 @@
+
+.btn {
+    background-color: #DA3B4A;
+    border-color: #DA3B4A;
+    border-radius: 5px;
+    color: white;    
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1rem;
+    padding: 10px 15px;
+    margin-top: 140px;
+}
+
+.content {
+    margin: 15px 0px 0px 50px;
+}
+
+/*** Popover ***/
+
+.popover {
+    position: absolute;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.3rem;
+    max-width: 246px;
+    font-size: 0.875rem;
+    z-index: 999;
+}
+
+.popover-header {
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    margin-top: 0px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ebebeb;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.popover-body {
+    padding: 0.5rem 0.75rem;
+    color: #212529;
+}
+
+/** Arrow **/
+.arrow {
+    position: absolute;
+    display: block;
+    width: 1rem;
+    height: 0.5rem;
+    margin: 0 0.3rem;
+
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.popover .arrow::before, .popover .arrow::after {
+    position: absolute;
+    display: block;
+    content: "";
+    border-color: transparent;
+    border-style: solid;
+}
+
+.arrow::before {
+    bottom: 0;
+    border-width: 0.5rem 0.5rem 0;
+    border-top-color: rgba(0, 0, 0, 0.25);
+}
+
+.arrow::after {
+    bottom: 1px;
+    border-width: 0.5rem 0.5rem 0;
+    border-top-color: #fff;
+}
+
+.hide {
+    display: none;
+}
