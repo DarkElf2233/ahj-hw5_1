@@ -54,25 +54,13 @@
     margin: 0 auto;
 }
 
-.popover .arrow::before, .popover .arrow::after {
+/* .arrow::before {
+    border-top: 8px solid white;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    content: '';
     position: absolute;
-    display: block;
-    content: "";
-    border-color: transparent;
-    border-style: solid;
-}
-
-.arrow::before {
-    bottom: 0;
-    border-width: 0.5rem 0.5rem 0;
-    border-top-color: rgba(0, 0, 0, 0.25);
-}
-
-.arrow::after {
-    bottom: 1px;
-    border-width: 0.5rem 0.5rem 0;
-    border-top-color: #fff;
-}
+} */
 
 .hide {
     display: none;
